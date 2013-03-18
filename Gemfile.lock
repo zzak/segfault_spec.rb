@@ -1,0 +1,61 @@
+GIT
+  remote: git://github.com/rack/rack
+  revision: 7b535cd7ce78eaaaec99cd2677ad8dd5962019a4
+  specs:
+    rack (1.6.0.alpha)
+
+GIT
+  remote: git://github.com/rtomayko/tilt
+  revision: c28b0534e2113d631d4aae37e56149e1c720f9b0
+  specs:
+    tilt (1.3.6)
+
+GIT
+  remote: git://github.com/sinatra/sinatra
+  revision: 5081d323311e5978446559dd4cefe41901ac2c60
+  specs:
+    sinatra (1.4.1)
+      rack (~> 1.5, >= 1.5.2)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    backports (3.1.1)
+    diff-lcs (1.2.1)
+    erubis (2.7.0)
+    haml (4.0.0)
+      tilt
+    rack-protection (1.5.0)
+      rack
+    rack-test (0.6.2)
+      rack (>= 1.0)
+    rake (10.0.3)
+    rspec (2.13.0)
+      rspec-core (~> 2.13.0)
+      rspec-expectations (~> 2.13.0)
+      rspec-mocks (~> 2.13.0)
+    rspec-core (2.13.1)
+    rspec-expectations (2.13.0)
+      diff-lcs (>= 1.1.3, < 2.0)
+    rspec-mocks (2.13.0)
+    slim (1.3.6)
+      temple (~> 0.5.5)
+      tilt (~> 1.3.3)
+    temple (0.5.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  backports (>= 2.0)
+  erubis
+  haml
+  rack!
+  rack-test
+  rake
+  rspec (~> 2.3)
+  sinatra!
+  slim
+  tilt!
