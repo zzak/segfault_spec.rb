@@ -7,3 +7,5 @@ Steps to reproduce:
 2. `bundle install`
 3. `bundle exec rspec segfault_spec.rb`
 4. repeat #3 until segfault.
+
+See also: [Bug #8100](https://bugs.ruby-lang.org/issues/8100)
